@@ -1,5 +1,8 @@
 package com.faceprep.jfs.notes;
 
+import org.springframework.stereotype.Component;
+//defines that this class is a component and we can use it as beans
+@Component("List")
 public class List implements NoteType{
 	String content;
 

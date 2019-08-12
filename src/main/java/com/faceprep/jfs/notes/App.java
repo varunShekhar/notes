@@ -1,5 +1,5 @@
 package com.faceprep.jfs.notes;
-
+//import org.spring.framework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -23,7 +23,7 @@ public class App
     	ApplicationContext context=new ClassPathXmlApplicationContext("ApplicationContext.xml");
     	//NoteType i=new Image();
     	//System.out.println(i.printContent());
-    	NoteType n=(NoteType) context.getBean("note");//getting bean from ApplicationContext.xml named "note"
+    	NoteType n=(NoteType) context.getBean("List");//getting bean from ApplicationContext.xml named "note"
     	//i.printContent();
     	n.printContent();
     }

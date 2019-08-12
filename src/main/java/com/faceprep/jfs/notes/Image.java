@@ -1,5 +1,8 @@
 package com.faceprep.jfs.notes;
 
+import org.springframework.stereotype.Component;
+
+@Component("Image")//giving bean name Image but if left empty, it automatically take de-normalized name of class i.e.,image will be taken
 public class Image implements NoteType{
 	String content;
 
