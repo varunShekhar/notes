@@ -1,2 +1,2 @@
 # notes
-To demonstrate XML based configuration in Spring.
+To demonstrate XML-based/Annotation-based/Java configuration in Spring.
