@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean name="note"
+  class="com.faceprep.jfs.notes.Image"
+  autowire="byName"></bean>
+ </beans>
+ <!-- class="com.faceprep.jfs.notes.List" 
+ we just specify which class to point to and that will be used in our program. This helps us not to change the code the hard way or hard coding things--> 
+  
+  
